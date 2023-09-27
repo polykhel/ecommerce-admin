@@ -1,0 +1,6 @@
+{
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "importOrder": ["^react$", "<THIRD_PARTY_MODULES>", "", "^@/(components|hooks|utils)/(.*)$", "", "^(?!.*[.]css$)[./].*$"],
+  "importOrderParserPlugins": ["typescript", "jsx", "tsx", "decorators-legacy"],
+  "importOrderTypeScriptVersion": "5.2.2"
+}
